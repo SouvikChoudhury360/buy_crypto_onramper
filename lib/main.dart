@@ -14,7 +14,7 @@ void main() {
               children: <Widget>[
                 ElevatedButton(
                       onPressed: () {
-                        launch("https://widget.onramper.com?defaultAmount=250&defaultFiat=USD&apiKey=pk_test_jWCXCkJiKkFktEIitty3O160jc7OHEj2l0Hq93ngofw0");
+                        launch("https://widget.onramper.com?defaultAmount=250&defaultFiat=USD&defaultCrypto=MATIC&apiKey=pk_test_jWCXCkJiKkFktEIitty3O160jc7OHEj2l0Hq93ngofw0");
                       },
                       style: ButtonStyle(
                         backgroundColor: MaterialStateProperty.all<Color>(
@@ -37,7 +37,7 @@ void main() {
                     ),
                 ElevatedButton(
                       onPressed: () {
-                        launch("https://widget.onramper.com?defaultAmount=500&defaultFiat=USD&apiKey=pk_test_jWCXCkJiKkFktEIitty3O160jc7OHEj2l0Hq93ngofw0");
+                        launch("https://widget.onramper.com?defaultAmount=500&defaultFiat=USD&defaultCrypto=MATIC&apiKey=pk_test_jWCXCkJiKkFktEIitty3O160jc7OHEj2l0Hq93ngofw0");
                       },
                       style: ButtonStyle(
                         backgroundColor: MaterialStateProperty.all<Color>(
@@ -60,7 +60,7 @@ void main() {
                     ),
                 ElevatedButton(
                       onPressed: () {
-                        launch("https://widget.onramper.com?defaultAmount=1000&defaultFiat=USD&apiKey=pk_test_jWCXCkJiKkFktEIitty3O160jc7OHEj2l0Hq93ngofw0");
+                        launch("https://widget.onramper.com?defaultAmount=1000&defaultFiat=USD&defaultCrypto=MATIC&apiKey=pk_test_jWCXCkJiKkFktEIitty3O160jc7OHEj2l0Hq93ngofw0");
                       },
                       style: ButtonStyle(
                         backgroundColor: MaterialStateProperty.all<Color>(
